@@ -25,7 +25,7 @@ namespace RBSsistemas
 
             var connectionStringMySql = builder.Configuration.GetConnectionString("ConnectionMySql");
             builder.Services.AddDbContext<RBSsistemasDBcontext>(options => options.UseMySql(
-                connectionStringMySql, ServerVersion.Parse("10.4.27-MariaDB")
+                connectionStringMySql, ServerVersion.Parse("5.7.39-MySQL Community Server ")
                 )
             );
 

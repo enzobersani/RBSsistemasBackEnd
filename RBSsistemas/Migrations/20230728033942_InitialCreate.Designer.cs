@@ -10,8 +10,8 @@ using RBSsistemas.Data;
 namespace RBSsistemas.Migrations
 {
     [DbContext(typeof(RBSsistemasDBcontext))]
-    [Migration("20230716001705_tabelaFornecedor")]
-    partial class tabelaFornecedor
+    [Migration("20230728033942_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
